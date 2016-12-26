@@ -778,8 +778,8 @@ void lingot_gui_mainframe_draw_gauge(const LingotMainFrame* frame) {
 	static const FLT gauge_gaugeLengthBack = 0.08;
 	static const FLT gauge_gaugeCenterRadius = 0.045;
 	static const FLT gauge_gaugeStroke = 0.01;
-	static const FLT gauge_gaugeShadowOffsetX = 0.015;
-	static const FLT gauge_gaugeShadowOffsetY = 0.01;
+    static const FLT gauge_gaugeShadowOffsetX = 0.0;
+    static const FLT gauge_gaugeShadowOffsetY = 0.0;
 
 	static const FLT overtureAngle = 65.0 * M_PI / 180.0;
 
